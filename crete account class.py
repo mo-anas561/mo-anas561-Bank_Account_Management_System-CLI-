@@ -2,9 +2,9 @@
 # Create methods for debit ,credit & printing the balance
 
 class Account:
-    def __init__(self,bal,accc):
+    def __init__(self,bal,acc):
         self.balance = bal
-        self.account_no = accc
+        self.account_no = acc
     # debit method
     def debit(self,ammount):
         self.balance-=ammount
@@ -22,9 +22,9 @@ print(s1.balance_val())
 
 # or 
 class Account:
-    def __init__(self,bal,accc):
+    def __init__(self,bal,acc):
         self.balance= bal
-        self.account_n0 = accc
+        self.account_n0 = acc
     # debit method
     def debit(self,ammount):
         self.balance-=ammount
